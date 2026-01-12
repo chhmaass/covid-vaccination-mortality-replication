@@ -1,0 +1,133 @@
+{
+  "run_started_utc": "2026-01-12T11:26:18.609054+00:00",
+  "python": "3.10.19",
+  "platform": "Windows-10-10.0.26100-SP0",
+  "data_path": "data\\cross_national_covid_19_risk_policy_dataset_v1.csv",
+  "outputs": {
+    "tables_dir": "output\\tables",
+    "figures_dir": "output\\figures"
+  },
+  "models": [
+    {
+      "spec": {
+        "outcome": "ACM",
+        "sample": "full",
+        "outlier": "raw"
+      },
+      "model_family": "RI",
+      "outcome_column": "all_cause_mortality",
+      "sample_info": {
+        "countries": 89,
+        "rows": 14863
+      },
+      "table": "output\\tables\\table_acm_ri_raw_full.csv",
+      "figure": "output\\figures\\figure_1_acm_ri_raw_full.png"
+    },
+    {
+      "spec": {
+        "outcome": "NCM",
+        "sample": "full",
+        "outlier": "raw"
+      },
+      "model_family": "RI",
+      "outcome_column": "non_covid_mortality",
+      "sample_info": {
+        "countries": 89,
+        "rows": 14863
+      },
+      "table": "output\\tables\\table_ncm_ri_raw_full.csv",
+      "figure": "output\\figures\\figure_2_ncm_ri_raw_full.png"
+    },
+    {
+      "spec": {
+        "outcome": "ACM",
+        "sample": "stmf",
+        "outlier": "raw"
+      },
+      "model_family": "RI",
+      "outcome_column": "all_cause_mortality",
+      "sample_info": {
+        "countries": 36,
+        "rows": 6012
+      },
+      "table": "output\\tables\\table_acm_ri_raw_stmf.csv",
+      "figure": "output\\figures\\figure_3_acm_ri_raw_stmf.png"
+    },
+    {
+      "spec": {
+        "outcome": "NCM",
+        "sample": "stmf",
+        "outlier": "raw"
+      },
+      "model_family": "RI",
+      "outcome_column": "non_covid_mortality",
+      "sample_info": {
+        "countries": 36,
+        "rows": 6012
+      },
+      "table": "output\\tables\\table_ncm_ri_raw_stmf.csv",
+      "figure": "output\\figures\\figure_4_ncm_ri_raw_stmf.png"
+    },
+    {
+      "spec": {
+        "outcome": "ACM",
+        "sample": "full",
+        "outlier": "winsor"
+      },
+      "model_family": "RI",
+      "outcome_column": "all_cause_mortality",
+      "sample_info": {
+        "countries": 89,
+        "rows": 14863
+      },
+      "table": "output\\tables\\table_acm_ri_winsor_full.csv",
+      "figure": "output\\figures\\figure_5_acm_ri_winsor_full.png"
+    },
+    {
+      "spec": {
+        "outcome": "NCM",
+        "sample": "full",
+        "outlier": "winsor"
+      },
+      "model_family": "RI",
+      "outcome_column": "non_covid_mortality",
+      "sample_info": {
+        "countries": 89,
+        "rows": 14863
+      },
+      "table": "output\\tables\\table_ncm_ri_winsor_full.csv",
+      "figure": "output\\figures\\figure_6_ncm_ri_winsor_full.png"
+    },
+    {
+      "spec": {
+        "outcome": "ACM",
+        "sample": "full",
+        "outlier": "raw"
+      },
+      "model_family": "FE",
+      "outcome_column": "all_cause_mortality",
+      "sample_info": {
+        "countries": 89,
+        "rows": 14863
+      },
+      "table": "output\\tables\\table_acm_fe_raw_full.csv",
+      "figure": "output\\figures\\figure_7_acm_fe_raw_full.png"
+    },
+    {
+      "spec": {
+        "outcome": "NCM",
+        "sample": "full",
+        "outlier": "raw"
+      },
+      "model_family": "FE",
+      "outcome_column": "non_covid_mortality",
+      "sample_info": {
+        "countries": 89,
+        "rows": 14863
+      },
+      "table": "output\\tables\\table_ncm_fe_raw_full.csv",
+      "figure": "output\\figures\\figure_8_ncm_fe_raw_full.png"
+    }
+  ],
+  "run_finished_utc": "2026-01-12T11:26:51.229310+00:00"
+}

@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Conda / venv
+.env
+.venv/
+*.conda
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs (optional: keep empty dirs only)
+output/tables/*
+output/figures/*
+!output/tables/.gitkeep
+!output/figures/.gitkeep
