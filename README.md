@@ -1,15 +1,13 @@
 # Replication Code: Vaccination Intensity and Mortality During the COVID-19 Pandemic
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18413113.svg)](https://doi.org/10.5281/zenodo.18413113)
-
 This repository contains the **full replication code** for the manuscript:
 
-> **Vaccination Intensity and Mortality During the COVID-19 Pandemic:  
-> A Cross-National Panel Analysis with Lagged and Time-Varying Associations**  
-> Christoph H. Maaß, PhD
+> **[Vaccination Intensity and Mortality During the COVID-19 Pandemic:  
+> A Cross-National Panel Analysis with Lagged and Time-Varying Associations](https://doi.org/10.5281/zenodo.18413113)**  
+> Christoph H. Maaß, PhD  
+> [Open-access preprint on Zenodo](https://zenodo.org/records/18413113) · Published January 29, 2026 · Version 1
 
 The code in this repository reproduces **all tables and figures reported in the manuscript**, including robustness checks, using publicly available data.
-
 ---
 
 ## 1. Overview
