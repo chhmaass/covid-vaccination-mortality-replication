@@ -1,5 +1,7 @@
 # Replication Code: Vaccination Intensity and Mortality During the COVID-19 Pandemic
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18413113.svg)](https://doi.org/10.5281/zenodo.18413113)
+
 This repository contains the **full replication code** for the manuscript:
 
 > **Vaccination Intensity and Mortality During the COVID-19 Pandemic:  
